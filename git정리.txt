@@ -1,0 +1,33 @@
+1Local git 사용하기
+01)git init
+02)프로젝트 진행중 변경 파일추가
+03)git add *
+04)git commit -m "message"
+05)git reset --hard(WD,SA Deleted)
+05)git reset --soft(WD,SA 유지)
+06)git log --oneline
+07)git reflog
+08)git merge dev(ff merge)
+09)git branch branchname
+10)git switch branchname
+
+2Git -Github연결
+git remote add origin URL
+git push origin
+git clone URL
+
+3Github Pull Request
+1)브랜치 생성
+2)작업내용 추가 수정 삭제 
+3)커밋
+4)Pull Request클릭
+5)create new Pull Request 클릭
+6)Pull Request 요청완료
+
+4혐업
+1)프로젝트->Settings->Collaborators->add people ->계정 Invite
+
+5브랜치 protect
+1)프로젝트->Settings->branchs->add branch protection rule
+->branch name pattern에 main 입력
+->Require a pull request before merging 체크 확인 ->create
